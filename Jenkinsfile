@@ -6,6 +6,7 @@ pipeline {
             steps {
                 script {
                     build job: 'PES1UG21CS064-1', wait: true
+                    echo 'Build of PES1UG21CS064 completed.'
                 }
             }
         }
